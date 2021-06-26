@@ -10,7 +10,7 @@ namespace Hourglass
         /// <summary>
         /// Keys that change the color when pressed
         /// </summary>
-        private static Dictionary<ConsoleKey, ConsoleColor> colorKeys = new()
+        private static Dictionary<ConsoleKey, ConsoleColor> colorKeys = new Dictionary<ConsoleKey, ConsoleColor>()
         {
             { ConsoleKey.R, ConsoleColor.Red },
             { ConsoleKey.G, ConsoleColor.Green },
